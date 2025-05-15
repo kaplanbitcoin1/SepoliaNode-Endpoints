@@ -175,13 +175,12 @@ curl http://localhost:5052/eth/v1/node/syncing
 --l1-consensus-host-urls http://localhost:5052
 ```
 
-> **Note**: This setup is exposed to the public (0.0.0.0). Reth and Lighthouse services are accessible from all interfaces. This allows external applications running on the same server (like an Aztec node) to communicate with them.
+Note: This setup is exposed to the public (0.0.0.0). Reth and Lighthouse services are accessible from all interfaces. This allows external applications running on the same server (like an Aztec node) to communicate with them.
 
-> To prevent unauthorized access to RPC endpoints, it is strongly recommended to use a reverse proxy (e.g., NGINX) with IP filtering. (Optionally, an NGINX configuration can be added to this repo.)
+To prevent unauthorized access to RPC endpoints, it is strongly recommended to use a reverse proxy (e.g., NGINX) with IP filtering. (Optionally, an NGINX configuration can be added to this repo.)
 
-> Additionally, for enhanced system-level security, it is advised to restrict access to specific IPs using firewall tools such as `iptables` or `ufw`.
+Additionally, for enhanced system-level security, it is advised to restrict access to specific IPs using firewall tools such as `iptables` or `ufw`.
 
----
 
 ### Thanks to [Codeesura](https://github.com/codeesura/) for creating the initial version of this repo.
 
