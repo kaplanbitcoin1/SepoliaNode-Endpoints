@@ -53,7 +53,7 @@ openssl rand -hex 32 > /root/sepolia-node/jwt/jwt.hex
 
 ```
 aria2c -x 16 -s 16 -d /root -o snapshot.tar.lz4 \
-  https://snapshots.publicnode.com/ethereum-sepolia-reth-8327048.tar.lz4
+  https://snapshots.publicnode.com/ethereum-sepolia-reth-8362773.tar.lz4
 lz4 -d /root/snapshot.tar.lz4 -c | tar -xf - -C /root/sepolia-node/execution
 ```
 
