@@ -185,3 +185,11 @@ Additionally, for enhanced system-level security, it is advised to restrict acce
 ### Thanks to [Codeesura](https://github.com/codeesura/) for creating the initial version of this repo.
 
 ### If you face any issues, feel free to reach out via [Telegram](https://t.me/tigernode).
+
+
+
+
+```
+./start_nexus_nodes.sh
+```
+
