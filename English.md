@@ -189,7 +189,3 @@ Additionally, for enhanced system-level security, it is advised to restrict acce
 
 
 
-```
-./start_nexus_nodes.sh
-```
-
