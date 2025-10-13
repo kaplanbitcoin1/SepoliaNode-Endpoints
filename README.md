@@ -86,7 +86,7 @@ version: "3.8"
 
 services:
   reth:
-    image: ghcr.io/paradigmxyz/reth:v1.3.12
+    image: ghcr.io/paradigmxyz/reth:v1.8.1
     container_name: reth
     restart: unless-stopped
     command: >
@@ -108,7 +108,7 @@ services:
       - ./jwt:/jwt
 
   lighthouse:
-    image: sigp/lighthouse:latest
+    image: sigp/lighthouse:v8.0.0-rc.1
     container_name: lighthouse
     restart: unless-stopped
     depends_on:
@@ -123,6 +123,7 @@ services:
       --http-address 0.0.0.0
       --metrics
       --datadir /data
+      --supernode
     ports:
       - "5052:5052"
     volumes:
