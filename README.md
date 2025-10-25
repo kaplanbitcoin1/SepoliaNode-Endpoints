@@ -125,11 +125,13 @@ services:
       --metrics
       --datadir /data
       --supernode
+      --log-level error
     ports:
       - "3500:3500"
     volumes:
       - ./beacon/data:/data
       - ./jwt:/jwt
+
 EOF
 ```
 
