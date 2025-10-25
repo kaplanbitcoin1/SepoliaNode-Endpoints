@@ -86,7 +86,7 @@ version: "3.8"
 
 services:
   reth:
-    image: ghcr.io/paradigmxyz/reth:v1.8.1
+    image: ghcr.io/paradigmxyz/reth:v1.8.2
     container_name: reth
     restart: unless-stopped
     command: >
