@@ -125,7 +125,7 @@ services:
       --datadir /data
       --supernode
     ports:
-      - "5052:5052"
+      - "3500:3500"
     volumes:
       - ./beacon/data:/data
       - ./jwt:/jwt
