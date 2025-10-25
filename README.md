@@ -168,7 +168,7 @@ curl -X POST http://localhost:8545 \
 * Beacon (Lighthouse) sync durumu
 
 ```
-curl http://localhost:5052/eth/v1/node/syncing
+curl http://localhost:3500/eth/v1/node/syncing
 ```
 * "is_syncing": false ise senkron tamamdır.
 
