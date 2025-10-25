@@ -108,7 +108,7 @@ services:
       - ./jwt:/jwt
 
   lighthouse:
-    image: sigp/lighthouse:v8.0.0-rc.1
+    image: sigp/lighthouse:v8.0.0-rc.2
     container_name: lighthouse
     restart: unless-stopped
     depends_on:
