@@ -121,6 +121,7 @@ services:
       --execution-jwt /jwt/jwt.hex
       --http
       --http-address 0.0.0.0
+      --http-port 3500
       --metrics
       --datadir /data
       --supernode
