@@ -180,7 +180,7 @@ curl http://localhost:3500/eth/v1/node/syncing
 
 ```
 --l1-rpc-urls http://localhost:8545 \
---l1-consensus-host-urls http://localhost:5052
+--l1-consensus-host-urls http://localhost:3500
 ```
 
 
