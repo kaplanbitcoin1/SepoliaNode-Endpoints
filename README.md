@@ -108,7 +108,7 @@ services:
       - ./jwt:/jwt
 
   lighthouse:
-    image: sigp/lighthouse:v8.0.0-rc.0
+    image: sigp/lighthouse:v8.0.0-rc.2
     container_name: lighthouse
     restart: unless-stopped
     depends_on:
@@ -121,12 +121,12 @@ services:
       --execution-jwt /jwt/jwt.hex
       --http
       --http-address 0.0.0.0
-      --http-port 5052
+      --http-port 3500
       --metrics
       --datadir /data
       --supernode
     ports:
-      - "5052:5052"
+      - "3500:3500"
     volumes:
       - ./beacon/data:/data
       - ./jwt:/jwt
